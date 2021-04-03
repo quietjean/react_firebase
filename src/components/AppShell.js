@@ -30,7 +30,7 @@ class AppShell extends React.Component {
     return (
       <div>
         <div className = {classes.root}>
-          <AppBar position="static">
+          <AppBar position="static" color="default">
             <IconButton className={classes.menuButton} color="inherit" onClick={this.handleDrawerToggle}>
               <MenuIcon/>
             </IconButton>
